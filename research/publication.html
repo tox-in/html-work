@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+            * {box-sizing: border-box;}
+   body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   #navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;;
+   background-color: #160d31;
+   padding: 10px 10px;
+   transition: 0.4s;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 99;
+   }
+   
+   #navbar a {
+   color: white;
+   text-align: center;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 25px;
+   border-radius: 4px;
+   }
+   
+   #navbar #logo {
+   font-size: 35px;
+   font-weight: bold;
+   transition: 0.4s;
+   }
+   
+   #navbar a:hover {
+   background-color: #160d31;
+   color: black;
+   }
+   
+   #navbar a.active {
+   background-color: dodgerblue;
+   color: white;
+   }
+   
+   #navbar-right {
+   display: flex;
+   gap: 10px;
+   }
+   
+   @media screen and (max-width: 580px) {
+   #navbar {
+   padding: 20px 10px !important;
+   }
+   #navbar a {
+   display: block;
+   text-align: left;
+   }
+   #navbar-right {
+   display: block;
+   }
+   }
+   
+   section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   padding-top: 80px;
+   margin: 0 10%;
+   }
+   
+   section > div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 35%;
+   border: 1px solid #ccc;
+   padding: 20px;
+   border-radius: 5px;
+   text-align: center;
+   min-width: 300px;
+   cursor: pointer;
+   }
+   
+   footer {
+   text-align: center;
+   padding: 20px;
+   background-color: #f1f1f1;
+   }
+     </style>
+</head>
+     <body>
+
+          <nav>
+     
+     <div id="navbar">
+          <a href="#default">TRUEPUB</a>
+       <div id="navbar-right">
+         <a href="#home">search</a>
+         <a href="#contact">domains</a>
+         <a href="#about">Log Out</a>
+       </div>
+     </div>
+
+</nav>
+
+  <section>
+
+     
+     <div class="bubl">
+          <a href="detail.html " style="text-decoration: none;">
+        <img src="quantum.png" alt="">
+        <p class="title">Quantum physics</p>
+        <p class="authors">Alber Enstien</p>
+        <p class="date">12/12/2005</p>
+     </a>
+     </div>
+
+     <div class="bubl">
+          <img src="ertythro.jpeg" alt="">
+          <p class="title">erythroiesis</p>
+          <p class="authors">Franz Ernst Christian Neumann </p>
+          <p class="date">October 1868</p>
+     </div>
+
+     <div class="bubl">
+          <img src="grah.jpeg" alt="">
+          <p class="title">Communication</p>
+          <p class="authors">Alexander Grahambell</p>
+          <p class="date">1877</p>
+     </div>
+
+     <div class="publ">
+          <a href="Benz.html" style="text-decoration: none;">
+          <img src="car.jpeg" alt="">
+          <p class="title">Car</p>
+          <p class="authors">Carl Benz</p>
+          <p class="date">1885</p>
+     </div>
+   
+
+</section>
+
+          
+
+     <footer>
+          <h1>RESEARCH PUBLICATION   APPLICATON</h1>
+
+          <div class="line5"></div>
+
+          <P>Copyright</P>
+     </footer>
+     </body>
+
+</html>
